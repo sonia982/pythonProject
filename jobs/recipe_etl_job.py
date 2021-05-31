@@ -11,11 +11,8 @@ and jobs or called from within another environment
 """
 
 import os
-
 import sys
-
 from config.parser import logger
-
 sys.path.append(os.getcwd())
 import config.arg as arg
 from pyspark.sql.column import Column

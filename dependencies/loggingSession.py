@@ -3,7 +3,6 @@ This file is utility function called get loggingSession to return a valid loggin
 """
 import logging
 
-
 def getloggingSession():
     # create logger
     logger = logging.getLogger()
