@@ -24,7 +24,6 @@ from dependencies.loggingSession import *
 from dependencies.sparkSession import *
 import config.recipes_etl_column_mapping as recipes_etl_column_mapping
 from config.cfg import config
-
 import time
 import datetime
 timestamp = datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S')

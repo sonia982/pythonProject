@@ -1,6 +1,7 @@
 """
 This file is exposes a utility function called to get SparkSession to retun a valid spark session
 """
+
 from pyspark.sql import SparkSession
 from dependancies.loggingSession import *
 import sys

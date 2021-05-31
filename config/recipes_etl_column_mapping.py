@@ -1,5 +1,3 @@
-""" column mapping
-"""
 recipes_etl_ingredients="ingredients"
 recipes_etl_prepTime="prepTime"
 recipes_etl_cookTime="cookTime"
